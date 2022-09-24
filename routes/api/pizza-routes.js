@@ -6,6 +6,7 @@ const {
   updatePizza,
   deletePizza,
 } = require("../../controllers/pizza-controller");
+
 //Set up Get All and Post at /api/pizzas
 router.route("/").get(getAllPizza).post(createPizza);
 
